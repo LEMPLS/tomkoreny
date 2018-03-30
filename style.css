@@ -1,0 +1,159 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Lato', Arial, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 50px 0 0 0;
+    background-color: #fff;
+}
+
+.wrapper {
+    min-height: 100%;
+    margin-bottom: -120px;
+}
+
+.wrapper:after {
+    content: "";
+    display: block;
+}
+
+#page-footer-wrap, .wrapper:after {
+    height: 120px;
+}
+
+#page-footer {
+    height: 110px;
+}
+
+#page-footer-wrap {
+    border-top: 10px solid #448ccb;
+}
+
+#page-footer {
+    background: #003471;
+    border-top: 10px solid #fff;
+    width: 100%;
+    color: #fff;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 31px 0;
+    line-height: 20px;
+}
+
+#logo-url {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: right;
+    display: inline-block;
+}
+
+#logo-url-wrap {
+    margin: auto;
+    text-align: center;
+    max-width: 100%;
+}
+
+#logo {
+    max-width: 100%;
+    height: auto;
+}
+
+#site-url {
+    width: auto;
+    font-size: 88px;
+    line-height: 82px;
+}
+
+#social {
+    text-align: center;
+    list-style-type: none;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+#social li {
+    text-align: center;
+    display: inline-block;
+    padding: 20px 50px;
+    font-size: 22px;
+}
+
+#social li a {
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+}
+
+#social .icon {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#coming-soon {
+    font-size: 55px;
+    color: #003471;
+    margin-bottom: 130px;
+}
+
+@media (max-width: 730px) {
+    body {
+        margin-top: 0;
+        padding-top: 20px;
+    }
+
+    #logo-url {
+        display: block;
+        text-align: center;
+    }
+
+    #site-url {
+        font-size: 12vw;
+        line-height: 1;
+    }
+
+    #social li {
+        padding: 10px 10px;
+        font-size: 17px;
+    }
+
+    #social .icon {
+        width: 40%;
+        height: auto;
+    }
+
+    #coming-soon {
+        font-size: 30px;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    #social li {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    #social .icon {
+        width: 40%;
+        height: auto;
+    }
+
+    #coming-soon {
+        font-size: 25px;
+        margin-bottom: 40px;
+    }
+}
